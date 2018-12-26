@@ -1,0 +1,19 @@
+programa teste (input, output);
+var inteiro : i;
+    real : a, b, c;
+    vetor inteiro [1..5]: v;
+inicio
+  i <- 1;
+  a <- 3.14;
+  b <- 0.217E+1;
+  c <- a * b / 1;
+  se a = 3.14 entao inicio
+  	a <- 0;
+  fim 
+  senao a <- 1;
+  enquanto i <= 5 faça inicio 
+    v[i] <- i * i;
+    i <- i + 1;
+  fim
+  a <- 3;
+fim.

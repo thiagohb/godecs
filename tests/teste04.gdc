@@ -1,0 +1,14 @@
+programa teste04 (input, output);
+var inteiro : i;
+    real : a, b, c;
+inicio
+  i <- 1;
+  a <- 3.14;
+  b <- 0.217E+1;
+  c <- a * b / 1;
+  se a = 3.14 entao 
+     inicio
+  	a <- 0;
+     fim 
+  senao
+fim.
